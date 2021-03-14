@@ -1,5 +1,3 @@
-<label for="pirate_name">Pirate Name</label>
-<input type="text" id="pirate_name" name="pirate[name]">
 require './environment'
 
 module FormsLab
@@ -18,7 +16,6 @@ module FormsLab
     @pirate = Pirate.new(params)
     erb :show
   end
-  
 
 end
 
